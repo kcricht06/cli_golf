@@ -1,0 +1,132 @@
+Last login: Mon Nov 14 12:50:07 on ttys001
+ GA General Assembly  Web Development Immersive 
+------------------------------------------
+git version 2.7.1
+Homebrew 1.1.0 Homebrew/homebrew-core (git revision 1d0a; last commit 2016-11-14)
+ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin16]
+node v7.1.0
+psql (PostgreSQL) 9.5.5
+------------------------------------------
+type unwelcome to remove this message
+kylecrichton ~
+$ reload
+
+
+
+
+
+
+
+
+
+
+
+ GA General Assembly  Web Development Immersive 
+------------------------------------------
+git version 2.7.1
+Homebrew 1.1.0 Homebrew/homebrew-core (git revision 1d0a; last commit 2016-11-14)
+ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin16]
+node v7.1.0
+psql (PostgreSQL) 9.5.5
+------------------------------------------
+type unwelcome to remove this message
+kylecrichton ~
+$ homework
+kylecrichton ~/code/wdi/homework
+$ cd kitchen/
+kylecrichton ~/code/wdi/homework/kitchen
+$ ls
+cans.txt  fridge/  pantry/
+kylecrichton ~/code/wdi/homework/kitchen
+$ mv cans.txt ~/code/wdi/homework/kitchen/pantry/
+'cans.txt' -> '/Users/kylecrichton/code/wdi/homework/kitchen/pantry/cans.txt'
+kylecrichton ~/code/wdi/homework/kitchen
+$ cd pantry/
+kylecrichton ~/code/wdi/homework/kitchen/pantry
+$ mv crisper-drawer/ ~/code/wdi/homework/kitchen/fridge/
+'crisper-drawer/' -> '/Users/kylecrichton/code/wdi/homework/kitchen/fridge/crisper-drawer'
+kylecrichton ~/code/wdi/homework/kitchen/pantry
+$ cd cripser_drawer
+-bash: cd: cripser_drawer: No such file or directory
+kylecrichton ~/code/wdi/homework/kitchen/pantry
+$ cd ..
+kylecrichton ~/code/wdi/homework/kitchen
+$ cd fridge/crisper-drawer/
+kylecrichton ~/code/wdi/homework/kitchen/fridge/crisper-drawer
+$ touch apples.txt
+kylecrichton ~/code/wdi/homework/kitchen/fridge/crisper-drawer
+$ cd ../
+kylecrichton ~/code/wdi/homework/kitchen/fridge
+$ rm couch.txt
+grm: cannot remove 'couch.txt': No such file or directory
+kylecrichton ~/code/wdi/homework/kitchen/fridge
+$ ls
+crisper-drawer/  diapers.txt  freezer/	milk.txt  trashcan/
+kylecrichton ~/code/wdi/homework/kitchen/fridge
+$ cd freezer/
+kylecrichton ~/code/wdi/homework/kitchen/fridge/freezer
+$ rm couch.txt
+removed 'couch.txt'
+kylecrichton ~/code/wdi/homework/kitchen/fridge/freezer
+$ cd ../
+kylecrichton ~/code/wdi/homework/kitchen/fridge
+$ rm diapers.txt
+removed 'diapers.txt'
+kylecrichton ~/code/wdi/homework/kitchen/fridge
+$ mv trashcan/ ~/code/wdi/homework/kitchen/
+'trashcan/' -> '/Users/kylecrichton/code/wdi/homework/kitchen/trashcan'
+kylecrichton ~/code/wdi/homework/kitchen/fridge
+$ cd ..
+kylecrichton ~/code/wdi/homework/kitchen
+$ cd fridge/
+kylecrichton ~/code/wdi/homework/kitchen/fridge
+$ cd ..
+kylecrichton ~/code/wdi/homework/kitchen
+$ cd trashcan/
+kylecrichton ~/code/wdi/homework/kitchen/trashcan
+$ mv sink/ ~/code/wdi/homework/kitchen/
+'sink/' -> '/Users/kylecrichton/code/wdi/homework/kitchen/sink'
+kylecrichton ~/code/wdi/homework/kitchen/trashcan
+$ pwd
+/Users/kylecrichton/code/wdi/homework/kitchen/trashcan
+kylecrichton ~/code/wdi/homework/kitchen/trashcan
+$ cd ..
+kylecrichton ~/code/wdi/homework/kitchen
+$ cd sink/
+kylecrichton ~/code/wdi/homework/kitchen/sink
+$ rm delete-me.txt 
+removed 'delete-me.txt'
+kylecrichton ~/code/wdi/homework/kitchen/sink
+$ mkdir drying-rack
+gmkdir: created directory 'drying-rack'
+kylecrichton ~/code/wdi/homework/kitchen/sink
+$ mv clean-dishes.txt ~/code/wdi/homework/kitchen/sink/drying-rack/
+'clean-dishes.txt' -> '/Users/kylecrichton/code/wdi/homework/kitchen/sink/drying-rack/clean-dishes.txt'
+kylecrichton ~/code/wdi/homework/kitchen/sink
+$ cd ..
+kylecrichton ~/code/wdi/homework/kitchen
+$ tree
+.
+├── fridge
+│   ├── crisper-drawer
+│   │   ├── apples.txt
+│   │   └── lettuce.txt
+│   ├── freezer
+│   │   ├── frozenpeas.txt
+│   │   └── icecream.txt
+│   └── milk.txt
+├── pantry
+│   ├── cans.txt
+│   └── cereal.txt
+├── sink
+│   ├── dirty-dishes.txt
+│   └── drying-rack
+│       └── clean-dishes.txt
+└── trashcan
+    ├── banana-peels.txt
+    ├── chicken-bones.txt
+    └── egg-shells.txt
+
+7 directories, 12 files
+kylecrichton ~/code/wdi/homework/kitchen
+$ 
